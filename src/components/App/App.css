@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.w-80 {
+    max-width: 1380px;
+    margin: auto;
+}
+
+p, 
+address {
+    line-height: 1.5;
+}
+
+.btn-gradient {
+    padding: 0.9rem 1.1rem;
+    font-weight: 500;
+    border: none;
+    color: var(--white);
+    background: linear-gradient(45deg, var(--light-purple), var(--purple));
+    border-radius: 5px;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,122 @@
+#register {
+    background: var(--dark-purple);
+    color: var(--white);
+    padding: 2rem 0 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.register-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+}
+
+.register-image-container{
+    width: 42%;
+}
+
+.register-image-container img {
+    max-width: 120%;
+    position: relative;
+    left: -22%;
+}
+
+.register-form-container {
+    padding: 3rem 3rem;
+    background:#7777771c;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 55%;
+}
+
+.form-header h2 {
+    color: var(--light-purple);
+    margin-bottom: 1.2rem;
+    font-size: 1.8rem;
+}
+
+.form-header h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-row label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 1.4rem 0 0.5rem;
+    display: block;
+}
+
+.input-box {
+    width: 48%;
+}
+
+.register-container .form-input {
+    width: 100%;
+    height: 50px;
+    padding: 0.8rem 1.2rem;
+    background: transparent;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 1.1rem;
+}
+
+::placeholder {
+    color: var(--white);
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;  
+    gap: 1rem;
+}
+
+.checkbox {
+    width: 17px;
+    height: 17px;
+    border: 1px solid var(--white);
+}
+
+.register-form-container .confirm {
+    color: var(--light-purple);
+    margin: 1.1rem 0;
+    font-size: 1.05rem;
+}
+
+.register-form-container button {
+    width: 100%;
+    padding: 0.9rem 1.1rem;
+    font-weight: 500;
+    border: none;
+    color: var(--white);
+    background: linear-gradient(45deg, var(--light-purple), var(--purple));
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.flare {
+    position: absolute;
+    right: 0;
+    bottom: -30%;
+    /* bottom: -15%; */
+    /* background: #000; */
+    width: 550px;
+    /* height: 500px; */
+}
+
+.flare img{
+    width: 100%;
+    height: 80%;
+
+}

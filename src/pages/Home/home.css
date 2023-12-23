@@ -1,0 +1,114 @@
+#banner {
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+    background: var(--dark-purple);
+    color: var(--white);
+    position: relative;
+    min-height: 112vh;
+}
+
+.banner-header {
+    text-align: right;
+    margin: 1.5rem 0;
+    position: relative;
+    right: -3%;
+}
+
+.banner-header h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  
+}
+
+.banner-container {
+    display: flex;
+    /* padding-bottom: 3rem; */
+}
+
+.banner-details {
+    width: 57%;
+}
+
+.banner-details h1 {
+    /* font-size: 5.5rem; */
+    font-size: 6rem;
+    line-height: 1.2;
+    word-spacing: -20px;
+    letter-spacing: -2px;
+    margin-top: 3.5rem;
+    /* margin-bottom: 1rem; */
+}
+
+.banner-details h1 span {
+    color: var(--light-purple);
+    letter-spacing: -6px;
+}
+
+.banner-container p {
+    font-size: 1.5rem;
+    margin: 0.8rem 0 2.5rem;
+    max-width: 530px;
+}
+
+.banner-container .btn-gradient {
+    width: 170px;
+    display: block;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.banner-image {
+    width: 43%;
+}
+
+.banner-image img {
+    /* background: #000; */
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+
+}
+
+/* about section & guidelines section*/
+#about,
+#guidelines {
+    background: var(--dark-purple);
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+}
+
+.about-container,
+.guidelines-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.about-image,
+.guidelines-image {
+    width: 50%;
+}
+
+.about-details,
+.guidelines-details {
+    width: 47%;
+}
+
+.about-details h2,
+.guidelines-details h2 {
+    margin-bottom: 1.8rem;
+    font-size: 2rem;
+}
+
+.about-details h2 span,
+.guidelines-details h2 span {
+    color: var(--light-purple);
+}
+
+.about-details p,
+.guidelines-details p {
+    font-size: 1.1rem;
+}
