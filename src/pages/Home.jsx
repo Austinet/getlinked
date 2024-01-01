@@ -1,3 +1,4 @@
+import Faqs from "../components/Faqs"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 
@@ -6,7 +7,7 @@ const Home = () => {
     <>
         <Header />
         <main>
-
+          <Faqs />
         </main>
         <Footer />
     </>

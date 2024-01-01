@@ -9,10 +9,12 @@ export default {
       colors: {
         primary: "#140D27",
         secondary: "#D434FE",
+        darkPurple: "#150E28",
         grey: "rgba(255, 255, 255, 0.18)",
       },
       backgroundColor: {
-        primary: "#140D27"
+        primary: "#140D27",
+        darkPurple: "#150E28",
       },
       borderColor:  {
         primary: "#140D27",

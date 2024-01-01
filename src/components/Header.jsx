@@ -35,7 +35,13 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo container */}
           <div>
-            <img src={logo} alt="Getlinked logo" className="w-[130px] md:w-auto"/>
+            <Link to={"/"}>
+              <img
+                src={logo}
+                alt="Getlinked logo"
+                className="w-[130px] md:w-auto"
+              />
+            </Link>
           </div>
 
           {/* Nav links */}
@@ -55,9 +61,14 @@ const Header = () => {
                   </Link>
                 </li>
               ))}
-               <li>
-               <Link className="w-[10.75rem] h-[3.3125rem] rounded-[0.25rem] pink-bg text-white flex items-center justify-center xl:ml-[7.31rem]">Register</Link>
-               </li>
+              <li>
+                <Link
+                  to={"/register"}
+                  className="w-[10.75rem] h-[3.3125rem] rounded-[0.25rem] pink-bg text-white flex items-center justify-center xl:ml-[7.31rem]"
+                >
+                  Register
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -68,9 +79,13 @@ const Header = () => {
               className="outline-none"
             >
               {toggleNav ? (
-                <img src={cancel} alt="Close Menu" className="gradient-line rounded-full p-1"/>
+                <img
+                  src={cancel}
+                  alt="Close Menu"
+                  className="gradient-line rounded-full p-1"
+                />
               ) : (
-                <img src={hamburger} alt="Open Menu"/>
+                <img src={hamburger} alt="Open Menu" />
               )}
             </button>
           </div>
