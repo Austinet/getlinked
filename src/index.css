@@ -32,3 +32,20 @@
 .gradient-line {
   border: 1px solid #903AFF;
 }
+
+.register .form-col label {
+  @apply text-[0.8125rem] md:text-[0.875rem] leading-normal font-normal inline-block mb-[0.31rem] md:mb-[0.69rem];
+}
+
+.register .form-col input,
+.register select {
+  @apply bg-transparent border outline-none rounded-[0.25rem] w-full px-[1.06rem] py-[0.69rem] mb-[1.12rem] md:mb-[1.81rem];
+}
+
+.form-row {
+  @apply lg:flex gap-[2rem];
+}
+
+.form-col {
+  @apply lg:w-1/2;
+}
