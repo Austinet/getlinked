@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
-import judges from '../../assets/images/home/judges.png'
-import "./criteria.css";
-import { criteria } from "../../utils/content";
+import { criteria } from "../utils/content";
 
 const Criteria = () => {
   return (
     <section id="criteria">
         <div className="criteria-container w-80">
             <div className="criteria-image">
-                <img src={judges} alt="Judges" />
+                {/* <img src={judges} alt="Judges" /> */}
             </div>
             <div className="criteria-details">
                 <h2>
