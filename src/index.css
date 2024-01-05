@@ -21,6 +21,10 @@
 
 }
 
+.btn-gradient {
+  @apply rounded-[0.25rem] pink-bg text-white flex items-center justify-center;
+}
+
 .pink-bg {
   background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
 }

@@ -90,6 +90,7 @@ const Footer = () => {
               ))}
               <li className="flex items-center gap-[1rem]">
                 <p className="text-secondary text-[0.75rem]">Follow us</p>
+                {/* Socials */}
                 <ul className="flex gap-[1.19rem] items-center">
                 {socials.map((item) => (
                 <li key={item.id}>
