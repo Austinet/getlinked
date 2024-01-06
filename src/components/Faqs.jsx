@@ -5,13 +5,13 @@ import questionImg from "../assets/images/home/questions.svg";
 
 const Faqs = () => {
   return (
-    <section className="bg-primary text-white border-b-[0.0625rem] border-b-grey">
-      <div className="pl-[2.99rem] pr-[2.88rem] pt-[3.75rem] pb-[3.06rem] lg:pl-[13.69rem] lg:pr-[6.31rem] lg:pt-[3.75rem] lg:pb-[3.94rem]">
-        <div className="flex flex-col md:flex-row gap-[5.38rem] md:gap-[1.5rem] items-center">
+    <section id="faq" className="bg-primary text-white border-b-[0.0625rem] border-b-grey">
+      <div className="pl-[2.99rem] pr-[2.88rem] pt-[3.75rem] pb-[3.06rem] xl:pl-[13.69rem] xl:pr-[6.31rem] lg:pt-[3.75rem] lg:pb-[3.94rem]">
+        <div className="flex flex-col lg:flex-row gap-[5.38rem] md:gap-[1.5rem] items-center">
           {/* Questions container */}
-          <div>
+          <div className="max-w-[26.6875rem] w-full">
             {/* Faq header */}
-            <div className="text-center md:text-left mb-[2.86rem] md:mb-[4.25rem]">
+            <div className="text-center lg:text-left mb-[2.86rem] md:mb-[4.25rem]">
               <h2 className="text-[1.25rem] md:text-[2rem] font-bold leading-[133%] mb-[0.38rem] md:mb-[1rem]">
                 Frequently Asked <br />
                 <span className="text-secondary">Questions</span>
@@ -22,7 +22,7 @@ const Faqs = () => {
               </p>
             </div>
 
-            <div className="max-w-[26.6875rem] w-full">
+            <div>
               <ul className="flex flex-col gap-[1.5rem]">
                 {questions.map((question) => (
                   <Question key={question.id} {...question} />

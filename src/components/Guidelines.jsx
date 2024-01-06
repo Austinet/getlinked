@@ -4,9 +4,9 @@ const Guidelines = () => {
   return (
     <section id="guidelines" className="bg-darkPurple text-white border-b-[0.0625rem] border-b-grey">
    {/* Guidelines container */}
-    <div className="flex flex-col-reverse md:flex-row gap-[0.62rem] md:gap-[3.56rem] lg:justify-between md:items-center px-[2.81rem] pb-[2.88rem] max-w-[75rem] mx-auto">
+    <div className="flex flex-col-reverse lg:flex-row gap-[0.62rem] md:gap-[3.56rem] lg:justify-between md:items-center px-[2.81rem] pb-[2.88rem] max-w-[75rem] mx-auto">
     {/* Guidelines details */}
-      <div className="text-center md:text-left max-w-[33.4375rem]">
+      <div className="text-center lg:text-left max-w-[33.4375rem] lg:w-1/2 xl:w-auto">
         <h2 className="text-[1.25rem] md:text-[2rem] font-bold leading-[133%] mb-[0.56rem] md:mb-[1rem]">
           Rules and <br />
           <span className="text-secondary">Guidelines</span>

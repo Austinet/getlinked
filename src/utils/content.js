@@ -18,22 +18,26 @@ export const criteria = [
     {
       name: "Impact and Relevance",
       details: `
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  commodi at est autem quia adipisci mollitia quisquam maiores officia modi sunt quod amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsum, nemo labore tempora quae debitis nihil commodi at est autem quia adipisci mollitia quisquam maiores officia modi sunt quod amet.         
+      Determine the potential impact of the solution 
+      in the real world. Does it address a significant problem, and is it relevant 
+      to the target audience? Judges would assess the potential social, 
+      economic, or environmental benefits.        
           `,
     },
     {
       name: "Technical Complexity",
       details: `
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  commodi at est autem quia adipisci mollitia quisquam maiores officia modi sunt quod amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsum, nemo labore tempora quae debitis nihil commodi at est autem quia adipisci mollitia quisquam maiores officia modi sunt quod amet.         
+      Evaluate the technical sophistication of the solution. 
+      Judges would consider the complexity of the code, the use of advanced 
+      technologies or algorithms, and the scalability of the solution.        
           `,
     },
     {
       name: "Adherence to Hackathon Rules",
       details: `
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  commodi at est autem quia adipisci mollitia quisquam maiores officia modi sunt quod amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsum, nemo labore tempora quae debitis nihil commodi at est autem quia adipisci mollitia quisquam maiores officia modi sunt quod amet.         
+      Judges will Ensure that the team adhered 
+      to the rules and guidelines of the hackathon, including deadlines, use of 
+      specific technologies or APIs, and any other competition-specific requirements.         
           `,
     },
   ];

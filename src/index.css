@@ -53,3 +53,15 @@
 .form-col {
   @apply lg:w-1/2;
 }
+
+.timeline-details {
+  @apply text-[0.75rem] md:text-base leading-[170.9%] max-w-[30.3125rem];
+}
+
+.timeline-right {
+  @apply lg:w-full max-w-[30.3125rem];
+}
+
+.timeline-left {
+  @apply lg:text-right lg:w-full max-w-[30.3125rem];
+}
