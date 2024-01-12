@@ -25,7 +25,11 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row gap-[1.64rem]">
           {/* Banner details */}
           <div className="text-center lg:text-left px-[3.56rem]">
-            <h1 className="font-bold text-[2rem] md:text-[5rem] leading-normal mb-[0.56rem]">
+            <h1 className="font-bold font-Clash text-[2rem] md:text-[5rem] leading-normal mb-[0.56rem]">
+              getlinked Tech <br />
+              Hackathon <span className="text-secondary">1.0</span>
+            </h1>
+            <h1 className="font-bold  text-[2rem] md:text-[5rem] leading-normal mb-[0.56rem]">
               getlinked Tech <br />
               Hackathon <span className="text-secondary">1.0</span>
             </h1>

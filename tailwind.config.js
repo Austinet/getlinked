@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "Clash": ['"Clash Display"', 'Arial', 'sans-serif'],
+      },
       colors: {
         primary: "#140D27",
         secondary: "#D434FE",
