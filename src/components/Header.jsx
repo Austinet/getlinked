@@ -1,6 +1,6 @@
 import logo from "../assets/images/home/getlinked.svg";
 import hamburger from "../assets/images/home/hamburger.svg";
-import cancel from "../assets/images/home/cancel.svg";
+import close from "../assets/images/home/close.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -30,8 +30,8 @@ const navLinks = [
 const Header = () => {
   const [toggleNav, setToggleNav] = useState(false);
   return (
-    <header className="bg-primary px-[2rem] xl:px-[8rem] border-b-[0.0625rem] border-b-grey">
-      <nav className="pt-[2.12rem] pb-[1.56rem] lg:pt-[3.94rem] lg:pb-[1.56rem]">
+    <header className="bg-primary px-[3rem] border-b-[0.0625rem] border-b-grey">
+      <nav className="pt-[1.88rem] pb-[1.44rem] lg:pt-[3.94rem] lg:pb-[1.56rem] max-w-[80rem] mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo container */}
           <div>
@@ -46,16 +46,16 @@ const Header = () => {
 
           {/* Nav links */}
           <div
-            className={`absolute left-0 z-30 w-screen lg:w-fit lg:static transition-all duration-300 ease-in-out bg-[#150E28] lg:bg-transparent px-[2rem] pb-[4rem] pt-[1.5rem] lg:p-0 rounded-b-[0.5rem] lg:rounded-b-0 ${
+            className={`absolute left-0 z-30 w-screen lg:w-fit lg:static transition-all duration-300 ease-in-out bg-[#150E28] lg:bg-transparent px-[3rem] pb-[4rem] pt-[1.5rem] lg:p-0 rounded-b-[0.5rem] lg:rounded-b-0 ${
               toggleNav ? "top-[5rem]" : "top-[-50rem]"
             }`}
           >
-            <ul className="flex flex-col lg:flex-row lg:items-center gap-[1.3rem] lg:gap-[3.5rem]">
+            <ul className="flex flex-col lg:flex-row lg:items-center gap-[1.25rem] lg:gap-[3.5rem]">
               {navLinks.map((item) => (
                 <li key={item.id}>
                   <Link
                     to={item.href}
-                    className="text-white hover:text-secondary text-[1.125rem] font-medium lg:text-base lg:font-normal leading-normal"
+                    className="text-white hover:text-secondary text-[1.125rem] font-Inter font-medium lg:text-base lg:font-normal leading-normal tracking-[-0.0625rem]"
                   >
                     {item.title}
                   </Link>
@@ -64,7 +64,7 @@ const Header = () => {
               <li>
                 <Link
                   to={"/register"}
-                  className="w-[10.75rem] h-[3.3125rem] rounded-[0.25rem] pink-bg text-white flex items-center justify-center xl:ml-[7.31rem]"
+                  className="w-[10.75rem] h-[3.3125rem] btn-gradient xl:ml-[7.31rem] mt-[0.5rem] md:mt-0"
                 >
                   Register
                 </Link>
@@ -80,9 +80,8 @@ const Header = () => {
             >
               {toggleNav ? (
                 <img
-                  src={cancel}
+                  src={close}
                   alt="Close Menu"
-                  className="gradient-line rounded-full p-1"
                 />
               ) : (
                 <img src={hamburger} alt="Open Menu" />

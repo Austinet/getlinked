@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Open+Sans:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Inter:wght@400;500;700&family=Unica+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,28 +7,11 @@
   html {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
   }
-}
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --white: #fff;
-  --black: #000;
-  --dark-purple: #150E28;
-  --purple: #903AFF;
-  --light-purple: #D434FE;
-  --green: #80FF00;
-
-/* mntserat */
-
-}
-
-.btn-gradient {
-  @apply rounded-[0.25rem] pink-bg text-white flex items-center justify-center;
+  h1,
+  h2 {
+    @apply font-Clash;
+  }
 }
 
 .pink-bg {
@@ -37,6 +20,10 @@
 
 .pink-bg:hover {
   background: linear-gradient(270deg, #D434FE 0%, #903AFF 56.42%, #FE34B9 99.99%,  #FF26B9 100%);
+}
+
+.btn-gradient {
+  @apply rounded-[0.25rem] pink-bg text-white flex items-center justify-center;
 }
 
 .gradient-line {
@@ -70,4 +57,12 @@
 
 .timeline-left {
   @apply lg:text-right lg:w-full max-w-[30.3125rem];
+}
+
+.countdown {
+  @apply text-[3rem] md:text-[4rem] leading-[133%] font-Unica;
+}
+
+.countdown-indicator {
+  @apply text-[0.875rem] leading-[133%] font-Unica;
 }

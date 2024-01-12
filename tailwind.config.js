@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         "Clash": ['"Clash Display"', 'Arial', 'sans-serif'],
+        "Montserrat": ['Montserrat', 'Arial', 'sans-serif'],
+        "Inter": ['Inter', 'Arial', 'sans-serif'],
+        "Unica": ['"Unica One"', 'Arial', 'sans-serif'],
       },
       colors: {
         primary: "#140D27",
